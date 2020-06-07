@@ -18,7 +18,7 @@ web.click("мужской")
 
 web.click("следующий вопрос")
 
-for _ in range(77):
+for _ in range(78):
     n = randint(1, 4)
     web.click(tag="input", classname="answers__label", number=n)
     sleep(5)
