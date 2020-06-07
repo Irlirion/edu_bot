@@ -9,7 +9,7 @@ web = Browser()
 web.go_to(BASE_URL)
 
 input("Готово?")
-
+print("Начинаю работу...")
 web.click("начать тестирование")
 web.click("+")
 web.click("+")
@@ -23,3 +23,5 @@ for _ in range(77):
     web.click(tag="input", classname="answers__label", number=n)
     sleep(5)
     web.click("следующий вопрос")
+
+print("Готово")
